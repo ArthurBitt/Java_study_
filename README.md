@@ -1,8 +1,6 @@
 # Java_study_ ☕
 ## Nivel 0
-- [ ] **Algorítimos - Fundamentos**:
-
-
+- [ ] **Fundamentos - Algorítimos e Estruturas de Dados**:
 
 ## Nivel 1
 - [ ] **Java - Fundamentos**:
