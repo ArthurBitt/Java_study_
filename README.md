@@ -1,4 +1,11 @@
 # Java_study_ ☕
+- [ ] **Resources**
+
+- [apostila java Alura](https://www.alura.com.br/apostila-java-orientacao-objetos)
+
+
+
+
 ## Nivel 0
 - [ ] **Fundamentos - Algorítimos e Estruturas de Dados**:
 
