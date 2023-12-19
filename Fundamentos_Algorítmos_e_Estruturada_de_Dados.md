@@ -77,7 +77,7 @@ static void Main(string[] args)
 # Estrutura de Dados
 
 - [ ] **Dado é a menor estrutura na progamação - unidade ou elemento de informação acessados por identificador**
-- [ ] **Uma estrutura de dados é a maneira que o dado se encontra organizado - Tal estrutra varia a depender da maneira que o dado será agragado, utilizado e processado**
+- [ ] **Uma estrutura de dados é a maneira que o dado se encontra organizado - Tal estrutra varia a depender da maneira que o dado será agregado, utilizado e processado**
 - [ ] **Podemos afirmar que um programa é composto de algoritmos e estruturas de dados, que juntos fazem com que o programa funcione como deve.**
 - [ ] **Cada uma dessas estruturas possuem métodos próprios para inserir, excluir, ordenar e buscar elementos.**
 - [ ] **Estruturas de dados podem ser lineares(arrays) e não lineares(grafos)**
