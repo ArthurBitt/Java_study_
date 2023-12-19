@@ -1,4 +1,8 @@
 # Java_study_ ☕
+## Nivel 0
+- [ ] **Algorítimos - Fundamentos**:
+
+
 
 ## Nivel 1
 - [ ] **Java - Fundamentos**:
