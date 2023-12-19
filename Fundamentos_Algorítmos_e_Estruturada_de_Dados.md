@@ -75,3 +75,7 @@ static void Main(string[] args)
         }
 
 ```
+
+# Estrutura de Dados
+- [ ] **Onde aplicamos todos os conceitos de algoritmos**
+- [ ] **Por meio de uma linguagem de programação, que é um meio estruturado para passar instruções para a máquina.**
