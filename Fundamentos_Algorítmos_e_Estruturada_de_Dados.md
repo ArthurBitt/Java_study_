@@ -3,6 +3,7 @@
 - [ ] **sequência lógica de passos - a ordem de execução importa** 
 - [ ] **clareza e forma precisa**
 - [ ] **criar o algoritmo e avaliar se o resultado obtido é a solução esperada - resultado correto e ordem lógica correta**
+
 ``` 
 1. Obter a nota do 1º bimestre;
 2. Obter a nota do 2º bimestre;
@@ -12,10 +13,7 @@
 6. Informar a média obtida pelo aluno.
 ```
 
-
 - [ ] **Pode ser representado por um fluxograma, ou pseudo-linguagem, ou liguagem natural, ou linguagem de progamação(Artificial)**
-
-
 
 ![fluxograma](https://www.alura.com.br/artigos/assets/algoritmos-e-logica-de-programacao/representacao-algoritmo-fluxograma.jpg)
 
@@ -77,5 +75,17 @@ static void Main(string[] args)
 ```
 
 # Estrutura de Dados
-- [ ] **Onde aplicamos todos os conceitos de algoritmos**
-- [ ] **Por meio de uma linguagem de programação, que é um meio estruturado para passar instruções para a máquina.**
+
+- [ ] **Dado é a menor estrutura na progamação - unidade ou elemento de informação acessados por identificador**
+- [ ] **Uma estrutura de dados é a maneira que o dado se encontra organizado - Tal estrutra varia a depender da maneira que o dado será agragado, utilizado e processado**
+- [ ] **Podemos afirmar que um programa é composto de algoritmos e estruturas de dados, que juntos fazem com que o programa funcione como deve.**
+- [ ] **Cada uma dessas estruturas possuem métodos próprios para inserir, excluir, ordenar e buscar elementos.**
+- [ ] **Estruturas de dados podem ser lineares(arrays) e não lineares(grafos)**
+- [ ] **Estruturas de dados podem ser homogêneas(apenas um tipo de elemento - sets) e heterogêneas(vários tipos de elementos - dicionários)**
+- [ ] **Estruturas de dados podem ser estáticas(não expandem sua memória) e dinâmicas(expandem sua memória)**
+
+# Tipos de Estruturas
+
+
+
+
