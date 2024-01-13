@@ -1,4 +1,4 @@
-package desafios.Desafios_Controle;
+package desafios.Controle;
 
 import java.util.Scanner;
 

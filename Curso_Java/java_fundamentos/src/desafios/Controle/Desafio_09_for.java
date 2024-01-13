@@ -1,4 +1,4 @@
-package desafios.Desafios_Controle;
+package desafios.Controle;
 
 public class Desafio_09_for {
     public static void main(String[] args) {

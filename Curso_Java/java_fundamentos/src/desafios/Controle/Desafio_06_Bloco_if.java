@@ -1,4 +1,4 @@
-package desafios.Desafios_Controle;
+package desafios.Controle;
 // note que o bloco if foi finalizado com ; portanto, o programa printa mesmo a condicional não sendo satisfeita - Descobrir o erro era o desafio
 public class Desafio_06_Bloco_if {
     public static void main(String[] args) {

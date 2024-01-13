@@ -1,4 +1,4 @@
-        package desafios.Desafios_Classes.Desafio_10_Classe_Data;
+        package desafios.Classes.Desafio_10_Classe_Data;
 
         public class Desafio_10_Classes_Data {
                 int dia;

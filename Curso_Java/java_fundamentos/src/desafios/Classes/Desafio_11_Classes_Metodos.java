@@ -1,4 +1,4 @@
-package desafios.Desafios_Classes;
+package desafios.Classes;
 // corrigir o print a, com a fora do main
 public class Desafio_11_Classes_Metodos {
 

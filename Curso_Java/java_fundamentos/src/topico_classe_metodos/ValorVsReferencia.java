@@ -1,5 +1,5 @@
 package topico_classe_metodos;
-import desafios.Desafios_Classes.Desafio_10_Classe_Data.Desafio_10_Classes_Data;
+import desafios.Classes.Desafio_10_Classe_Data.Desafio_10_Classes_Data;
 
 public class ValorVsReferencia {
     public static void main(String[] args) {

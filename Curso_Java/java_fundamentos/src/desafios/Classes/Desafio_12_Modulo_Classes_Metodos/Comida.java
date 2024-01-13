@@ -1,4 +1,4 @@
-package desafios.Desafios_Classes.Desafio_13_Modulo_Classes_Metodos;
+package desafios.Classes.Desafio_12_Modulo_Classes_Metodos;
 
 public class Comida {
     String nomeComida;
