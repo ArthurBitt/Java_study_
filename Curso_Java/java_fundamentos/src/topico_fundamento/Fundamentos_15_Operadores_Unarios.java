@@ -15,7 +15,7 @@ public class Fundamentos_15_Operadores_Unarios {
         a--;
         System.out.println(a);
 
-        System.out.println(++a   == b--);// precedência ++a > a--. ele incrementa e compara antes de decrementar b
+        System.out.println(++a   == b--);// !precedência ++a > a--. ele incrementa e compara antes de decrementar b
 
         System.out.println(++a == b);
     }

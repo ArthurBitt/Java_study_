@@ -5,7 +5,8 @@ public class Fundamentos_09_Wrappers {
         Byte b = 1;
         Short s = 10;
         Integer i = 100;
-        Long l = 1000L; // literal é int - classe long define como long, é preciso declarar como long o literal para não haver perda de informação
+        Long l = 1000L; // !literal é int - classe long define como long, é preciso declarar como long o literal para
+        // !não haver perda de informação
 
         // entrada = Integer.parseInt(entrada.next)
         System.out.println(b.byteValue());

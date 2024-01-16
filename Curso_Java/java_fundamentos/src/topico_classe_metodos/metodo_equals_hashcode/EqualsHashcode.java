@@ -1,10 +1,10 @@
-package topico_equals_hashcode;
+package topico_classe_metodos.metodo_equals_hashcode;
 
 public class EqualsHashcode {
 
-    //*São métodos comparativos, utilizados para filtrar objetos dentro das estruturas de dado.
-    //?enquanto o equals pode ser especificado para comparar atributos e não referências de memória
-    //!o hashcode se limita a percorrer rapidamente a estrutura separando o que não possui o valor especificado
+    //! Equal e hashcode São métodos comparativos, utilizados para filtrar objetos dentro das estruturas de dado.
+    //! enquanto o equals pode ser especificado para comparar atributos e não referências de memória
+    //! o hashcode percorre rapidamente a estrutura separando o que não possui o valor especificado
     //TODO:  hash   code filtra e o equals compara.
 
     public static void main(String[] args) {

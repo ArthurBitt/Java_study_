@@ -1,20 +1,20 @@
-package topico_classe_metodos;
+package topico_classe_metodos.metodo_construtor;
 
 import java.util.Scanner;
 
-public class ProdutoTeste {
-    // classe de teste recebe main para testar os objetos criados a partir da classe original
-    // dentro de um mesmo pacote não é necessário importar uma classe
+public class ConstrutorTeste {
+    // !classe de teste recebe main para testar os objetos criados a partir da classe original
+    // !dentro de um mesmo pacote não é necessário importar uma classe
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
 
-        Produto p1 = new Produto("Notebook",4328);
-        // instância da classe produto - p1 é a variável de referência que guarda o objeto
+        Contrutor p1 = new Contrutor("Notebook",4328);
+        // !instância da classe produto - p1 é a variável de referência que guarda o objeto
         //p1.nome = "Notebook";
         //p1.preco = 4328.00;
 
-        var p2 = new Produto();
+        var p2 = new Contrutor();
         p2.nome = "Caneta";
         p2.preco = 13.00;
 

@@ -2,8 +2,8 @@ package topico_fundamento;
 
 public class Fundamentos_03_Inferencia {
     public static void main(String[] args) {
-        double a;  // variavel declarada
-        a = 4.5; // variavel incializada
+        double a;  // !variavel declarada
+        a = 4.5; // !variavel incializada
 
         // a = 5 - funciona conversão 5.0
         // a =  "texto" - erro de inferência

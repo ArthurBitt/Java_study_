@@ -1,4 +1,4 @@
-package topico_equals_hashcode;
+package topico_classe_metodos.metodo_equals_hashcode;
 
 public class Usuario {
     String nome;

@@ -1,7 +1,7 @@
 package topico_arrays;
 
 
-// array é uma estrutura estática, homogênea,linear e indexada. É preciso definir seu tamanho na instância
+// !array é uma estrutura estática, homogênea, linear e indexada. É preciso definir seu tamanho na instância
 public class Array {
     public static void main(String[] args) {
 
@@ -21,7 +21,7 @@ public class Array {
         System.out.println(arrayInt.length - 1);// puxa o último elemento
         System.out.println(arrayDouble[0]);
 
-        /* double[][][] arrayDouble = new double[1][1][1]; // array tridimensional
+        /*  double[][][] arrayDouble = new double[1][1][1]; // array tridimensional
         arrayDouble[0][0][0] = 2;
         System.out.println(arrayDouble[0][0][0]); */
 

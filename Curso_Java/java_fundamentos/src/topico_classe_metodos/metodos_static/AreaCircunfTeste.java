@@ -1,4 +1,4 @@
-package topico_classe_metodos;
+package topico_classe_metodos.metodos_static;
 
 public class AreaCircunfTeste {
     public static void main(String[] args) {

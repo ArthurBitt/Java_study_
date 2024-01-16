@@ -2,7 +2,7 @@ package topico_controle;
 
 public class Controle_for {
     public static void main(String[] args) {
-//        // estrutura com quantidade de loops determinadas por
+//        // estrutura com quantidade de loops determinadas
 //        for (int i = 0; i <=10; i++){
 //            System.out.println(i);
 //        }
