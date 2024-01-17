@@ -1,4 +1,4 @@
-package oop.relacionamento_n_m;
+package oop.reuso_composicao.relacionamento_n_m;
 
 import java.util.ArrayList;
 import java.util.List;

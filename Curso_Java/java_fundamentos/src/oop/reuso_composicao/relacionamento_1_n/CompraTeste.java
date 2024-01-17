@@ -1,4 +1,4 @@
-package oop.relacionamento_1_n;
+package oop.reuso_composicao.relacionamento_1_n;
 
 public class CompraTeste {
     public static void main(String[] args) {

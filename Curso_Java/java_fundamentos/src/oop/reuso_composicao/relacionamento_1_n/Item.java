@@ -1,5 +1,4 @@
-package oop.relacionamento_1_n;
-import java.util.ArrayList;
+package oop.reuso_composicao.relacionamento_1_n;
 
 public class Item {
         String nomeItem;

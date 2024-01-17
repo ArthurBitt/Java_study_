@@ -1,9 +1,6 @@
-package desafios.composicao;
+package desafios.reuso_composicao;
 
-import java.util.ArrayList;
-import java.util.List;
-
-    // obrigatório quanto foi gasto na loja pelo cliente método
+// obrigatório quanto foi gasto na loja pelo cliente método
 public class Cliente {
     String nome;
     Compra compra;
@@ -15,7 +12,7 @@ public class Cliente {
 
         @Override
         public String toString() {
-            return this.nome;
+            return "Cliente: " + this.nome;
         }
 
         double calculaTotalCompra(){
