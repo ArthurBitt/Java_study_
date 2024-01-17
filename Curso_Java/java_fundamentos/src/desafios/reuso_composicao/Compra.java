@@ -28,9 +28,27 @@ public class Compra {
     void exibeCliente(){
         for(Cliente cliente: clienteList){
             System.out.println(cliente);
-
-
         }
+    }
+
+    void exibeCompra(){
+        for (Item item:itensList
+             ) {
+            item.exibeItem();
+        }
+    }
+
+    double calculaTotalCompra(){
+        double totalCompra = 0;
+        for (Item item:itensList
+             ) {
+            totalCompra+= item.precoItem() * item.quantidade;
+        }
+        return totalCompra;
+    }
+
+    void adicionaItem(Item item){
+        this.itensList.add(item);
     }
 
 }

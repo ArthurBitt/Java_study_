@@ -21,6 +21,15 @@ public class Item {
 
     }
 
+    double precoItem(){
+        double total = 0;
+        for (Produto produto:produtoList
+             ) {
+            total += produto.preco * this.quantidade;
+        }
+        return total;
+    }
+
     // esse método utiliza recursos da classe Compras
     void exibeItem(){
         for (Produto produto:
@@ -33,4 +42,6 @@ public class Item {
             System.out.println("Quantidade" + this.quantidade);
         }
     }
+
+
 }

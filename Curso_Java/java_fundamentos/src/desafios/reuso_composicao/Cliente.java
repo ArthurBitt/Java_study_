@@ -15,10 +15,6 @@ public class Cliente {
             return "Cliente: " + this.nome;
         }
 
-        double calculaTotalCompra(){
-        double total = 0;
-        //! total += // quantidade do item * valor do produto
-        return total;
-        }
+
 
     }
