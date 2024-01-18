@@ -39,7 +39,7 @@ public class Controle_switch {
         // switch sem break - acumulativo
         // roxa - contém verde e laranja
         // preta - contém todas
-        String faixa = "preta";
+        String faixa = "";
 
         switch (faixa.toLowerCase()){
             case "preta":

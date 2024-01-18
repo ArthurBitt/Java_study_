@@ -15,6 +15,12 @@ public class Cliente {
             return "Cliente: " + this.nome;
         }
 
+        void minhaCompra(){
+            System.out.println("Carrinho Cliente: " + this.nome);
+            this.compra.exibeCompra();
+        }
+
+
 
 
     }

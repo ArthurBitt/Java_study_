@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Compra {
+
     List<Item> itensList = new ArrayList<>(); // uma compra possui vário itens
     List <Cliente> clienteList = new ArrayList<>(); // uma compra possui vários clientes
 
@@ -16,39 +17,31 @@ public class Compra {
         item.compra = (this); // esse item recebe -> 1 Ref Compra
     }
 
-    // esse método mostra a nota do cliente utilizando um método desenvolvido na classe item.
-    void exibeNotaCliente() {
-        for (Item item : itensList) {
-            item.exibeItem(); // objeto tipo item chama função exibeItem();
-
-        }
-    }
-
-    // exibe o cliente - é passado dentro de exibeItem() da classe Item
-    void exibeCliente(){
-        for(Cliente cliente: clienteList){
-            System.out.println(cliente);
-        }
-    }
-
     void exibeCompra(){
+
         for (Item item:itensList
              ) {
             item.exibeItem();
         }
+        System.out.println("Total: "+ this.calculaTotalCompra());
     }
-
+    // calcula o valor total Compra(((nome, preco), quantidade), cliente) - percorre array pegando preco dos itens
     double calculaTotalCompra(){
         double totalCompra = 0;
         for (Item item:itensList
              ) {
-            totalCompra+= item.precoItem() * item.quantidade;
+            totalCompra+= item.precoItem();
         }
         return totalCompra;
     }
 
-    void adicionaItem(Item item){
+   void adicionaItemCompra(Item item){
         this.itensList.add(item);
+
+    }
+
+    List<Item> verifcaCarrinho(){
+        return itensList;
     }
 
 }
