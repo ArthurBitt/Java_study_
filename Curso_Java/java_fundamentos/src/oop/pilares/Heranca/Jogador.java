@@ -6,6 +6,21 @@ public class Jogador {
     int pos_x;
     int hp = 100;
 
+    // viabiliza um valor padrão pra as subclasses
+   Jogador() {
+       this(0, 0); // this sempre chama outro construtor da classe
+   }
+
+   // construtores das subclasses quando chamam super podem inserir argumentos
+    Jogador(int x, int y){
+        this.pos_x = x;
+        this.pos_y = y;
+    }
+
+
+
+
+
     boolean atacar(Jogador atacado){
         int deltax = (Math.abs(this.pos_x - atacado.pos_x));
         int deltay = (Math.abs(this.pos_y - atacado.pos_y));
@@ -20,7 +35,6 @@ public class Jogador {
             return false;
         }
     }
-
 
     // Passando Enum como Arg
     boolean andar(Direcao direcao) {
