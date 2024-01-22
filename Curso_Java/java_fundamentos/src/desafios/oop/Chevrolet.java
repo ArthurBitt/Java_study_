@@ -3,23 +3,17 @@ package desafios.oop;
 public class Chevrolet extends Carro{
 
     // Padrao da classe
-    Chevrolet(){
+    public Chevrolet(){
         this(8,210);
     }
 
     // Chama super
-    Chevrolet(int aceleraConst, int velMax){
+    public Chevrolet(int aceleraConst, int velMax){
         super(aceleraConst, velMax);
     }
 
     @Override
-    void acelerar() {
-
-        super.acelerar();
-    }
-    @Override
-    void frear() {
-
-        super.frear();
+    public int getVelocidadeAtual() {
+        return super.getVelocidadeAtual();
     }
 }

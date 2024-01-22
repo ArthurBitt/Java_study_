@@ -2,12 +2,12 @@ package oop.pilares.Heranca;
 
 public class Jogador {
 
-    int pos_y;
-    int pos_x;
-    int hp = 100;
+    public int pos_y;
+    public int pos_x;
+    public int hp = 100;
 
     // viabiliza um valor padrão pra as subclasses
-   Jogador() {
+   protected Jogador() {
        this(0, 0); // this sempre chama outro construtor da classe
    }
 
@@ -21,7 +21,7 @@ public class Jogador {
 
 
 
-    boolean atacar(Jogador atacado){
+    protected boolean atacar(Jogador atacado){
         int deltax = (Math.abs(this.pos_x - atacado.pos_x));
         int deltay = (Math.abs(this.pos_y - atacado.pos_y));
 

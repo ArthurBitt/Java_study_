@@ -3,24 +3,16 @@ package desafios.oop;
 public class Ford extends Carro{
 
     //Padrao da classe
-    Ford(){
+    public Ford(){
         this(10,230);
     }
 
     //Chama Super
-    Ford(int aceleraConst, int velMax){
+    public Ford(int aceleraConst, int velMax){
         super(aceleraConst, velMax);
     }
 
-
-    @Override
-    void acelerar() {
-        super.acelerar();
-    }
-
-    @Override
-    void frear() {
-
-        super.frear();
+    public int getVelocidadeAtual(){
+        return super.velociadadeAtual;
     }
 }
